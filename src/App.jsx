@@ -1,9 +1,9 @@
-import './index.css'
+import './index.scss'
 
 const App = () => {
   return (
     <>
-      
+    
     </>
   )
 }
