@@ -1,19 +1,24 @@
 .new-project-container {
+    margin: 0 auto;
     width: 100%;
     padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.5em;
+    gap: 1em;
     color: var(--font-white);
 
-    h1 {
-        margin-bottom: 0.5em;
-    } 
+    .header-new-project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+    }
     
     p {
-        font-size: 1.1em;
+        font-size: 1em;
         margin-bottom: 2em;
     }
 }
