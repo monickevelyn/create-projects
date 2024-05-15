@@ -9,8 +9,11 @@
     background-color: var(--bg-secundary);
     color: var(--font-black);
 
-    .logo {
+    .logo{
+        text-decoration: none;
+        color: var(--font-black);
         font-size: 1.2em;
+        font-weight: 600;
     }
 
     .nav-bar {

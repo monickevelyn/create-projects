@@ -8,7 +8,7 @@ const Project = () => {
     <section className="project-container">
         <div className="header-project-container">
             <h1>Meus Projetos</h1>
-            <ButtonLink text="Criar Projeto" />
+            <ButtonLink to="/newprojects" text="Criar Projeto" />
         </div>
         <div className="projects">
             <p>aqui fica os projetos</p>

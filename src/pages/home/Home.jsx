@@ -7,7 +7,7 @@ const Home = () => {
          <section className='home-container'>
             <h1>Bem-vindo ao <span>Projects</span></h1>
             <p>Comece a gerenciar os seus projetos agora mesmo!</p>
-            <ButtonLink text="Criar Projeto" />
+            <ButtonLink  to="/newprojects" text="Criar Projeto" />
          </section>
         </>
     );

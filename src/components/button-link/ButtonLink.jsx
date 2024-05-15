@@ -1,17 +1,16 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { string } from 'prop-types';
 import "./button-link.scss"
 
-const ButtonLink = ({ text }) => {
+const ButtonLink = ({ to, text }) => {
   return (
     <>
-    {/* <Link className="button-link" to={to}>
+    <Link className="button-link" to={to}>
         {text}
-    </Link> */}
-    <a href="">{text}</a>
+    </Link>
     </>
   )
 }
 
-ButtonLink.propTypes = { text: string }
+ButtonLink.propTypes = { to:string, text: string }
 export default ButtonLink;
