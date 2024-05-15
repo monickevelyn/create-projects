@@ -22,11 +22,11 @@
             font-size: 17px;
             font-weight: 500;
             text-decoration: none;
-            color: #151515;
+            color: var(--font-black);
         }
         
         .link:hover {
-            color: #a5781d;
+            color: var(--color-secundary);
             cursor: pointer;
             transition: all 0.3s;
         }
