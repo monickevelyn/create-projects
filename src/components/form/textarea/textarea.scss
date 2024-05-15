@@ -1,0 +1,27 @@
+.div-textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+    label {
+        margin-bottom: 0.4em;
+        font-weight: 500;
+        font-size: 1em;
+        color: var(--font-white);
+    }
+
+    textarea {
+        background: none;
+        border: none;
+        outline: none;
+        min-width: 300px;
+        max-width: 400px;
+        height: 140px;
+        padding: 0.4em;
+        background-color: var(--font-white);
+        color: var(--font-black);
+        font-size: 1em;
+        border-radius: 0.2em;
+        resize: none;                  
+    }
+}
