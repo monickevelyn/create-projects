@@ -4,9 +4,10 @@
     color: var(--font-black);
     padding: 2em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1em;
 
     .social-list {
@@ -22,7 +23,7 @@
         }
         
         li:hover {
-            color: var(--color-hover);
+            color: var(--color-secundary);
             cursor: pointer;
             transition: all 0.3s;
         }
