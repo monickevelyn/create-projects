@@ -22,7 +22,7 @@
         gap: 18px;
     
         .link {
-            font-size: 17px;
+            font-size: 1em;
             font-weight: 500;
             text-decoration: none;
             color: var(--font-black);
@@ -32,6 +32,10 @@
             color: var(--color-secundary);
             cursor: pointer;
             transition: all 0.3s;
+        }
+        
+        a.active {
+         color: var(--color-secundary);
         }
     }
 }

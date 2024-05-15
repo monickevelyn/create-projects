@@ -1,9 +1,7 @@
-import "./company-contact.scss"
-
 const Contact = () => {
   return (
     <>
-    <div className="page">
+    <div>
         <h1>Contato</h1>
         <p>Página de representação.</p>
     </div>
