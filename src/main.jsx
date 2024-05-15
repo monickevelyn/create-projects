@@ -4,8 +4,6 @@ import App from './App.jsx'
 import './index.scss'
 
 import Home from './pages/home/Home.jsx'
-import Company from './pages/Company.jsx'
-import Contact from './pages/Contact.jsx'
 import NewProjects from './pages/new-project/NewProject.jsx'
 import Project from "./pages/project/Project.jsx"
 
@@ -17,8 +15,6 @@ const rotas = createBrowserRouter([
     element: <App />,
     children: [
       { path: "/",  element: <Home />},
-      { path: "company", element: <Company /> },
-      { path: "contact", element: <Contact />  },
       { path: "newprojects",  element: <NewProjects />  },
       { path: "project",  element: <Project />  }
     ]

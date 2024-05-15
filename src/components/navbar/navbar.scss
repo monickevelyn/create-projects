@@ -19,7 +19,7 @@
     .nav-bar {
         display: flex;
         align-items: center;
-        gap: 18px;
+        gap: 1.2em;
     
         .link {
             font-size: 1em;
@@ -36,6 +36,7 @@
         
         a.active {
          color: var(--color-secundary);
+         border-bottom: 0.1em solid var(--color-secundary);
         }
     }
 }
