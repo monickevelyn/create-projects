@@ -1,0 +1,21 @@
+.new-project-container {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    color: var(--font-white);
+
+    h1 {
+        font-size: 2.2em;
+        font-weight: 600;
+        margin-bottom: 0.5em;
+    } 
+    
+    p {
+        font-size: 1.1em;
+        margin-bottom: 2em;
+    }
+}
