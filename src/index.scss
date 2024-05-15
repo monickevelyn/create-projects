@@ -20,11 +20,14 @@ h1 {
 }
 
 main {
-    width: 90%;
+    width: 100%;
     min-height: 72vh;
     margin: 0 auto;
     padding: 0.5em;
-    color: var(--font-white)
+    color: var(--font-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body {

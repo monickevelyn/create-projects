@@ -6,8 +6,9 @@
     color: var(--font-white);
     border-radius: 8px;
     border: 2px solid var(--font-white);
-    padding: 0.6em;
+    padding: 0.7em 0.9em;
     text-decoration: none;
+    text-wrap: nowrap;
 }
 
 .button-link:hover {

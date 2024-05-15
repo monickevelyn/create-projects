@@ -19,6 +19,27 @@ const Project = () => {
               date_end="30/05/2024"
               key="09"
             />
+            <ProjectCard 
+              name="Exemplo"
+              content="Sobre esse é um exemplo"
+              date_start="20/03/2024"
+              date_end="30/05/2024"
+              key="09"
+            />
+            <ProjectCard 
+              name="Exemplo"
+              content="Sobre esse é um exemplo"
+              date_start="20/03/2024"
+              date_end="30/05/2024"
+              key="09"
+            />
+            <ProjectCard 
+              name="Exemplo"
+              content="Sobre esse é um exemplo"
+              date_start="20/03/2024"
+              date_end="30/05/2024"
+              key="09"
+            />
         </div>
     </section>
     </>
