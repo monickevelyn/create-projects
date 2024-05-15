@@ -1,11 +1,11 @@
 .header {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 1.2em;
-    height: 80px;
+    height: 70px;
     background-color: var(--bg-secundary);
     color: var(--font-black);
 
@@ -29,14 +29,13 @@
         }
         
         .link:hover {
-            color: var(--color-secundary);
             cursor: pointer;
             transition: all 0.3s;
+            border-bottom: 0.2em solid var(--color-secundary);
         }
         
         a.active {
-         color: var(--color-secundary);
-         border-bottom: 0.1em solid var(--color-secundary);
+         border-bottom: 0.2em solid var(--color-secundary);
         }
     }
 }

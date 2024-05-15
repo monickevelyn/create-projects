@@ -7,11 +7,10 @@
 
 :root {
     --bg: #262525;
-    --bg-secundary: #cecccce1;
+    --bg-secundary:  #d2cccce8;
     --font-white: #eae8e8;
     --font-black: #151515;
-    --color-primary: #5572b5;
-    --color-secundary: #435fa1;
+    --color-secundary: #5f7dbe;
 }
 
 h1 {
@@ -21,9 +20,8 @@ h1 {
 
 main {
     width: 100%;
-    min-height: 72vh;
+    min-height: 80vh;
     margin: 0 auto;
-    padding: 0.5em;
     color: var(--font-white);
     display: flex;
     align-items: center;
