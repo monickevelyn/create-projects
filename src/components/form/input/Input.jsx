@@ -13,6 +13,7 @@ const Input = ({ type, value, onChange, id, name, label, className }) => {
             name={name}
             id={id}
             className={className}
+            autoFocus
         />
     </div>
     </>
