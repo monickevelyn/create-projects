@@ -1,5 +1,5 @@
-import ProjectForm from '../../components/project/project-form/ProjectForm';
 import './new-project.scss'
+import ProjectForm from '../../components/project/project-form/ProjectForm';
 
 const NewProjects = () => {
     return ( 
@@ -9,7 +9,7 @@ const NewProjects = () => {
                 <h1>Criar Projeto</h1>
                 <p>Crie o seu projeto aqui.</p>
             </div>
-            <ProjectForm  />
+            <ProjectForm />
         </section>
         </>
     );

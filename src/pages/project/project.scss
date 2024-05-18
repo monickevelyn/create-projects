@@ -1,11 +1,11 @@
 .project-container {
     width: 100%;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 4em;
-    padding: 1em;
+    gap: 1.5em;
+    padding: 2em;
     color: var(--font-white);
 
     .header-project-container {

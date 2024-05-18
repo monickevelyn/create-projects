@@ -1,14 +1,14 @@
 import "./project-card.scss"
-import { any } from 'prop-types'
+import { any, func } from 'prop-types'
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-const ProjectCard = ({ name, content, date_start, date_end }) => {
+const ProjectCard = ({ name, content, date_start, date_end, onClick }) => {
   return (
     <>
     <div className="project">
         <div className="header-project">
             <h4>{name}</h4>
-            <button className="button-del" > 
+            <button className="button-del" onClick={onClick} > 
                 <RiDeleteBin6Line />
             </button>
         </div>
@@ -30,6 +30,7 @@ ProjectCard.propTypes = {
     content: any, 
     date_start: any, 
     date_end: any,
+    onClick: func
 }
 
 export default ProjectCard;

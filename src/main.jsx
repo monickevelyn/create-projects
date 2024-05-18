@@ -8,6 +8,7 @@ import NewProjects from './pages/new-project/NewProject.jsx'
 import Project from "./pages/project/Project.jsx"
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { ProjectProvider } from './context/ProjectContext.jsx'
 
 const rotas = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const rotas = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={rotas} />  
+    <ProjectProvider>
+      <RouterProvider router={rotas}> 
+        <App /> 
+      </RouterProvider> 
+    </ProjectProvider>
   </React.StrictMode>
 )
