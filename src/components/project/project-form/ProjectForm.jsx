@@ -1,4 +1,4 @@
-// import { useContext, useEffect } from "react"
+import { useContext, useEffect } from "react"
 import Input from "../../form/input/Input"
 import ButtonSubmit from "../../form/submit/ButtonSubmit"
 import TextArea from "../../form/textarea/TextArea"
@@ -7,7 +7,6 @@ import { func, any } from 'prop-types'
 import { ProjectContext } from "../../../context/ProjectContext"
 import { useNavigate } from "react-router-dom"
 import { v4 as uid } from "uuid"
-import { useContext } from "react"
 
 const ProjectForm = () => {
 
@@ -36,16 +35,16 @@ const ProjectForm = () => {
         navigate('/project', {state: 'Projeto criado!'})
     }
 
-    // useEffect(() => {
-    //     const data = JSON.parse(localStorage.getItem("Projects"));
-    //     if (data) {
-    //       setProject(data);
-    //     }
-    // }, []);
+    useEffect(() => {
+        const data = JSON.parse(localStorage.getItem("Projects"));
+        if(data) {
+          setProject(data);
+        }
+    }, [setProject]);
     
-    // useEffect(() => {
-    //    window.localStorage.setItem("Projects", JSON.stringify(project));
-    // }, [project]);
+    useEffect(() => {
+       window.localStorage.setItem("Projects", JSON.stringify(project));
+    }, [project]);
 
   return (
     <>
