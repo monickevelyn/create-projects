@@ -3,7 +3,6 @@ import Input from "../../form/input/Input"
 import ButtonSubmit from "../../form/submit/ButtonSubmit"
 import TextArea from "../../form/textarea/TextArea"
 import "./project-form.scss"
-import { func, any } from 'prop-types'
 import { ProjectContext } from "../../../context/ProjectContext"
 import { useNavigate } from "react-router-dom"
 import { v4 as uid } from "uuid"
@@ -87,15 +86,7 @@ const ProjectForm = () => {
 }
 
 ProjectForm.propTypes = {
-    onSubmit: func,
-    valueName: any,
-    valueAbout: any, 
-    valueStart: any, 
-    valueEnd: any, 
-    onChangeName: any, 
-    onChangeAbout: any, 
-    onChangeStart: any, 
-    onChangeEnd: any
+
 }
 
 export default ProjectForm;

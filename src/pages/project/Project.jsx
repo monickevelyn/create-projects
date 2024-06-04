@@ -7,12 +7,12 @@ import NoProject from "../../components/no-project/NoProject";
 
 const Project = () => {
 
-  const { project } = useContext(ProjectContext)
+  const { project,setProject } = useContext(ProjectContext)
 
-    //   const deleteProject = (id) => {
-    //     const newProjects = project.filter((project) => project.id !== id);
-    //     setProject(newProjects);
-    // };
+      const deleteProject = (id) => {
+        const newProjects = project.filter((project) => project.id !== id);
+        setProject(newProjects);
+    };
 
   return (
     <>
@@ -31,7 +31,8 @@ const Project = () => {
                   content={proj.about}
                   date_end={proj.dateEnd}
                   date_start={proj.dateStart}
-                  // onClick={() => deleteProject(proj.name)}
+                  id={proj.name}
+                  onClick={() => deleteProject()}
                 />
               ))
           }
